@@ -91,6 +91,8 @@
         NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
     }
     
+    [self.navigationController popViewControllerAnimated:YES];
+    
     
 }
 

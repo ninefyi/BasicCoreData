@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Person.h"
 #import "FormViewController.h"
+#import "FormDetailController.h"
 
 @interface TableViewController : UITableViewController<UISearchBarDelegate, UISearchDisplayDelegate, UIAlertViewDelegate>
 

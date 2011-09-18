@@ -259,6 +259,20 @@
     }
 }
 
+-(void)tableView:(UITableView *)tableView 
+    didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    Person *p = (Person *)[self.arrayList objectAtIndex:indexPath.row];
+    
+    FormDetailController *detailC = [[FormDetailController alloc] init];
+    detailC.currentPerson = p;
+    
+    [self.navigationController pushViewController:detailC animated:YES];
+    
+    [detailC release];
+    
+}
+
 #pragma mark - Alert View Delegate
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {

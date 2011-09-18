@@ -23,7 +23,7 @@
 
     
     TableViewController *tVC = [[TableViewController alloc] init];
-    tVC.title = @"LIST";
+    tVC.title = @"Contact Person";
     tVC.managedObjectContext = self.managedObjectContext;
     
     

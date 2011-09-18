@@ -21,6 +21,8 @@
 		01401A03141F62A3001E5C37 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01401A01141F62A3001E5C37 /* FormViewController.m */; };
 		01401A04141F62A3001E5C37 /* FormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01401A02141F62A3001E5C37 /* FormViewController.xib */; };
 		01401A08141F62CF001E5C37 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 01401A07141F62CF001E5C37 /* Person.m */; };
+		01D5345C1420FB5300C13044 /* FormDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D5345A1420FB5300C13044 /* FormDetailController.m */; };
+		01D5345D1420FB5300C13044 /* FormDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D5345B1420FB5300C13044 /* FormDetailController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,9 @@
 		01401A02141F62A3001E5C37 /* FormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormViewController.xib; sourceTree = "<group>"; };
 		01401A06141F62CF001E5C37 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		01401A07141F62CF001E5C37 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		01D534591420FB5300C13044 /* FormDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormDetailController.h; sourceTree = "<group>"; };
+		01D5345A1420FB5300C13044 /* FormDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormDetailController.m; sourceTree = "<group>"; };
+		01D5345B1420FB5300C13044 /* FormDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormDetailController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +137,9 @@
 				01401A00141F62A3001E5C37 /* FormViewController.h */,
 				01401A01141F62A3001E5C37 /* FormViewController.m */,
 				01401A02141F62A3001E5C37 /* FormViewController.xib */,
+				01D534591420FB5300C13044 /* FormDetailController.h */,
+				01D5345A1420FB5300C13044 /* FormDetailController.m */,
+				01D5345B1420FB5300C13044 /* FormDetailController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 				014019F0141F5FB3001E5C37 /* MainWindow.xib in Resources */,
 				014019FF141F6068001E5C37 /* TableViewController.xib in Resources */,
 				01401A04141F62A3001E5C37 /* FormViewController.xib in Resources */,
+				01D5345D1420FB5300C13044 /* FormDetailController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +224,7 @@
 				014019FE141F6068001E5C37 /* TableViewController.m in Sources */,
 				01401A03141F62A3001E5C37 /* FormViewController.m in Sources */,
 				01401A08141F62CF001E5C37 /* Person.m in Sources */,
+				01D5345C1420FB5300C13044 /* FormDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +334,7 @@
 				014019F8141F5FB3001E5C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
